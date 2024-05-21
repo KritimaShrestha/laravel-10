@@ -59,9 +59,7 @@ h1{
     font-size: 20px; 
     color: black; 
      font-family: Arial, sans-serif;
-    font-weight: bold;
-
-    
+    font-weight: bold;   
 }
   footer {
     background-color: #333; /* Background color of the footer */
@@ -114,4 +112,70 @@ video {
     width: 100%;
     height: 75%;
     border-radius: 10px;
+}
+.box1 {
+    width: 80%; 
+    height: 80%;
+    background-color: skyblue;
+    border: 1px solid #0e0d0d;
+    border-radius: 10px;
+    margin: 50px auto; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity:85%;
+    
+}
+.box1-content {
+   
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px; 
+    color: #333; 
+}
+    .content1{
+        font-size: 20px; 
+        color: black; 
+         font-family: Arial, sans-serif;
+        font-weight: bold;   
+    }
+    
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
 }
