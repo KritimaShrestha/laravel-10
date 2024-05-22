@@ -1,18 +1,5 @@
-<html>
-    <title>My Website </title>
-      <head>
-          
-  <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Kritima">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="{{url('/style.css')}}" />
- 
-</head> 
-<body>
-    <div class="container">
-  
+@extends('layouts.master')
+  @section('content')
      <nav>
          <h1>Add Students</h1>
           <ul>
@@ -48,11 +35,8 @@
        
             
         </div>
-        <button type="submit" value="Submit">Submit</button>
+        <button class=styled-button type="submit" value="Submit">Submit</button>
     </div>
-     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+     
     </div>
-</body>
-</html>
+@endsection

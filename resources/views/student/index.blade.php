@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
- 
-        <link rel="stylesheet" type="text/css" href="{{url('/style.css')}}" />
- 
-    @yield('frontend_css')
-    @section('frontend_css')
-    <link rel="stylesheet" type="text/css" href="{{ url('/css/slider.css') }}" />
-    @endsection
-</head>
-<body>
-    <div class="container">
-  
+@extends('layouts.master')
+
      <nav>
          <h1>List of Students</h1>
          
@@ -52,8 +37,6 @@
         @endforeach
     
    </table>
-   <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+
 </body>
 </html>
